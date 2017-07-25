@@ -10,6 +10,8 @@ More information:
 
 The command line tools (in `bin/`) require `bash`, `jq`, `python`, and `rasterio`.
 
+These tools assume the existence of a `.env` file, or the appropriate variables set in the environment. See `sample.env` for more information.
+
 Transcode source scene:
 
 ```bash
